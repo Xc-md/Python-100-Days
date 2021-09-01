@@ -49,8 +49,8 @@ def main():
     width, height = 540, 360
     draw_rectangle(x, y, width, height)
     # 画大星星
-    widthDivisor=30
-    pace = width/widthDivisor
+    width_divisor=30
+    pace = width/width_divisor
     center_x, center_y = x + 5 * pace, y + height - pace * 5
     turtle.goto(center_x, center_y)
     turtle.left(90)
